@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Template</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="#home" class="logo"><i class="fas fa-book"></i> Books shop</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#books">Books</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="btn-connexion">
+        <i class="fas fa-sign-in-alt"></i> Connexion
+      </a>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-content">
+        <h1>Welcome to MySite</h1>
+        <p>Your journey starts here.</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <div class="about-row">
+          <div class="about-image">
+            <img src="assets/images/about.jpg" alt="About Us" />
+          </div>
+          <div class="about-text">
+            <p>
+              We are a team dedicated to providing the best experience for our
+              users. Learn more about what we do and how we can help you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fas fa-book"></i>
+          <h3>Book Management</h3>
+          <p>Organize and track your book inventory with ease.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-shopping-cart"></i>
+          <h3>Book Selling</h3>
+          <p>Sell your books online with our secure platform.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-sync-alt"></i>
+          <h3>Book Exchange</h3>
+          <p>Facilitate book swaps and trades with other readers.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-headset"></i>
+          <h3>Customer Support</h3>
+          <p>Get 24/7 support for all your book-related needs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="books-section">
+      <h2>Our Books</h2>
+      <div class="books-cards">
+        <div class="book-card">
+          <img
+            src="assets/images/harry-potter.jpg"
+            alt="Harry Potter and the Sorcerer's Stone"
+          />
+          <h3>Harry Potter and the Sorcerer's Stone</h3>
+          <p>Author: J.K. Rowling</p>
+          <p>Price: $24.99</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="book-card">
+          <img
+            src="assets/images/ToKillaMockingbird.jpg"
+            alt="To Kill a Mockingbird"
+          />
+          <h3>To Kill a Mockingbird</h3>
+          <p>Author: Harper Lee</p>
+          <p>Price: $18.99</p>
+          <button>Buy Now</button>
+        </div>
+
+        <div class="book-card">
+          <img
+            src="assets/images/the_great_gatsby.jpg"
+            alt="The Great Gatsby"
+          />
+          <h3>The Great Gatsby</h3>
+          <p>Author: F. Scott Fitzgerald</p>
+          <p>Price: $16.99</p>
+          <button>Buy Now</button>
+        </div>
+        <div class="book-card">
+          <img src="assets/images/TheHobbit.jpg" alt="The Hobbit" />
+          <h3>The Hobbit</h3>
+          <p>Author: J.R.R. Tolkien</p>
+          <p>Price: $22.99</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+
+      <button class="see-more">See More</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Logo and Description -->
+        <div class="footer-section about">
+          <h3><i class="fas fa-book"></i> Books Shop</h3>
+          <p>
+            Your one-stop destination for amazing books across various genres.
+            Stay connected and explore our collections.
+          </p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-section social">
+          <h4>Follow Us</h4>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f"></i> Facebook</a
+          >
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+          <a href="https://linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin-in"></i> LinkedIn</a
+          >
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-section newsletter">
+          <h4>Subscribe to Our Newsletter</h4>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 Books Shop. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

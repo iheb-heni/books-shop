@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Template</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#home" class="logo"><i class="fas fa-book"></i> Books shop</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#books">Books</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="btn-connexion">
+            <i class="fas fa-sign-in-alt"></i> Connexion
+        </a>
+ </header>
+
+<!-- Login Form -->
+<section class="login-form-section">
+    <div class="login-form-container">
+        <h2>Login</h2>
+        <form action="authenticate.php" method="POST">
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn-login">Login</button>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Logo and Description -->
+            <div class="footer-section about">
+                <h3><i class="fas fa-book"></i> Books Shop</h3>
+                <p>Your one-stop destination for amazing books across various genres. Stay connected and explore our collections.</p>
+            </div>
+    
+            <!-- Social Media Links -->
+            <div class="footer-section social">
+                <h4>Follow Us</h4>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+    
+            <!-- Newsletter -->
+            <div class="footer-section newsletter">
+                <h4>Subscribe to Our Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Books Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
